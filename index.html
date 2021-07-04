@@ -1,0 +1,2140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- FONT AWESOME 5  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- FLICKITY -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <link rel="stylesheet" href="./public/css/styles.css">
+    <title>Ho Si Hung</title>
+</head>
+
+<body>
+    <div class="project-wrapper">
+        <!-- HEADER -->
+        <header class="myheader d-block page-header">
+            <!-- HEADER-TOP -->
+            <div class="header-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="header-TL">Working time: Mon - Sat: 8:00 - 21:00</div>
+                        <div class="header-TR d-flex">
+                            <div class="currency_top">
+                                <div class="switcher">
+                                    <div style="position: relative;">
+                                        <div class="switcher">
+                                            <strong class="language-USD"> <span>USD</span> <i
+                                                    class="fas fa-chevron-down"></i></strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="top-form-language">
+                                <div class="switcher">
+                                    <div style="position: relative;">
+                                        <div class="switcher">
+                                            <strong>
+                                                <span style="background-image:url(./public/images/default.jpg);
+                                                    background-repeat: no-repeat;">ENG
+                                                    1 </span> <i class="fas fa-chevron-down"></i>
+                                            </strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="header-account">
+                                <div class="toggle-tab"><span>My account </span> <i class="fas fa-chevron-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- HEADER-MIDDLE -->
+            <div class="header-mid">
+                <div class="container">
+                    <div class="row">
+                        <div class="headerLogo">
+                            <span class="headerLogo-barItem"><i class="fas fa-bars"></i></span>
+                            <a class="logo" href="#" title="Back to Home">
+                                <img src="./public/images/logo_6.png" alt="#" width="184" height="45"></a>
+                        </div>
+
+                        <div class="headerMenu">
+                            <ul>
+                                <li class="active">HOME <i class="fas fa-chevron-down"></i></li>
+                                <li>Shop <i class="fas fa-chevron-down"></i></li>
+                                <li>
+                                    <span class="categoryLabel">
+                                        <span class="categoryContent new">
+                                            New
+                                        </span>
+                                    </span>
+                                    Fast Food
+                                    <i class="fas fa-chevron-down"></i>
+                                </li>
+                                <li>brand <i class="fas fa-chevron-down"></i></li>
+                                <li>
+                                    pages
+                                    <i class="fas fa-chevron-down"></i>
+                                    <span class="categoryLabel">
+                                        <span class="categoryContent hot">
+                                            Hot
+                                        </span>
+                                    </span>
+                                </li>
+                                <li>blog <i class="fas fa-chevron-down"></i></li>
+                                <li>contact us <i class="fas fa-chevron-down"></i></li>
+                            </ul>
+                        </div>
+
+                        <div class="headerHotLine">
+                            Hotline:
+                            <a href="#" class="phoneNumber">+44 161 833 9883</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- HEADER-BOTTOM -->
+            <div class="header-bottom">
+                <div class="container">
+                    <div class="row">
+                        <!-- DEPARTMENT MENU -->
+                        <div class="departmentMenu">
+                            <div class="departmentMenuContent">
+                                <i class="fas fa-bars"></i> all departments
+                                <div class="arrowDown-departmentMenu">
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SEARCH MENU -->
+                        <div class="searchMenu">
+                            <div class="iconSearch-responsive">
+                                <i class="fas fa-search"></i>
+                            </div>
+
+                            <div class="searchContent">
+                                <div class="block-search">
+                                    <form class="form-search" action="post">
+                                        <input class="searchKey" placeholder="What Do You Want To Eat Today?"
+                                            type="text" name="searchKey" id="searchKey">
+                                        <div class="catalogsearch">All Categories</div>
+                                    </form>
+                                    <button class='btn-searchInsideHeader' type="submit"><i
+                                            class="fas fa-search"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- CART -->
+                        <div class="headerCart">
+                            <span> <i class="far fa-heart"></i></span>
+                            <span> <i class="fas fa-shopping-bag"></i></span>
+                            <span>Cart : 0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <!-- SLIDER MENU -->
+        <div class="container">
+            <div class="slider-menu">
+                <div class="row gy-3 g-md-4">
+                    <!-- MENU ITEM 1 -->
+                    <div class="col-lg-8 col-12">
+                        <div class="slider-menu-item1 big-slider">
+                            <div class="slider-menu-item-container active">
+                                <a href="#">
+                                    <img class="imgClassItem1" src="./public/images/slider_0000_layer_2.jpg"
+                                        alt="item1">
+                                </a>
+
+                                <div class="menu-item-content">
+                                    <h6 class="caption1">Fast food</h6>
+                                    <h1 class="caption2">Fresh, Bold & Tasty</h1>
+                                    <p class="caption3">Sale 20% every Monday</p>
+                                    <a href="#" class="caption4">shop now</a>
+                                </div>
+                            </div>
+
+                            <div class="slider-menu-item-container">
+                                <a href="#">
+                                    <img class="imgClassItem1" src="./public/images/slider_0001_layer_1.jpg"
+                                        alt="item1">
+                                </a>
+
+                                <div class="menu-item-content">
+                                    <h6 class="caption1">doublle beef & Cheese</h6>
+                                    <h1 class="caption2">American Burger</h1>
+                                    <p class="caption3">Complementary fried dish with new recipe.</p>
+                                    <a href="#" class="caption4">shop now</a>
+                                </div>
+                            </div>
+
+                            <div class="slider-menu-item-container">
+                                <a href="#">
+                                    <img class="imgClassItem1" src="./public/images/slider_0002_layer_0.jpg"
+                                        alt="item1">
+                                </a>
+
+                                <div class="menu-item-content">
+                                    <h6 class="caption1">Fast food</h6>
+                                    <h1 class="caption2">Fresh, Bold & Tasty</h1>
+                                    <p class="caption3">Sale 20% every Monday</p>
+                                    <a href="#" class="caption4">shop now</a>
+                                </div>
+                            </div>
+
+                            <ul class="slider-dots">
+                                <li>
+                                    <div class="slider-dot active"></div>
+                                </li>
+                                <li>
+                                    <div class="slider-dot "></div>
+                                </li>
+                                <li>
+                                    <div class="slider-dot "></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-12">
+                        <div class="row gy-3 g-sm-3 g-md-4 g-lg-4">
+                            <!-- MENU ITEM 2 -->
+                            <div class="col-lg-12 col-sm-6 col-12">
+                                <div class="slider-menu-item1">
+                                    <a href="#">
+                                        <img class="imgClassItem1 imgClassItem2" src="./public/images/bn_1.jpg"
+                                            alt="item1">
+                                    </a>
+
+                                    <div class="menu-item-content">
+
+                                        <h2 class="title">Sale of 20%</h2>
+                                        <p class="sideMenuContentPTag">Gift new dishes</p>
+                                        <strong class="sale">
+                                            <sup>$</sup>
+                                            13
+                                            <sup>.50</sup>
+                                        </strong>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- MENU ITEM 3 -->
+                            <div class="col-lg-12 col-sm-6 col-12">
+                                <div class="slider-menu-item1">
+                                    <a href="#">
+                                        <img class="imgClassItem1 imgClassItem3" src="./public/images/bn_2.jpg"
+                                            alt="item1">
+                                    </a>
+
+                                    <div class="menu-item-content menu-item-right-side">
+
+                                        <h2 class="title">Double meat</h2>
+                                        <p class="sideMenuContentPTag">Beef burger</p>
+                                        <strong class="sale">
+                                            <sup>$</sup>
+                                            13
+                                            <sup>.50</sup>
+                                        </strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="shopByCategoryArea">
+        <div class="container">
+            <div class="categoriesContainer">
+                <div class="tile-caegory-responsive">
+                    <h3 class="title">
+                        Shop by categories
+                    </h3>
+                    <div class="toogle-tab-mobile">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+                <ul class="categoryTab">
+                    <li>
+                        <div class="categoryItem">
+                            <img src="./public/images/34.png" alt="#">
+                        </div>
+                        <a href="#">Burgers</a>
+                    </li>
+                    <li>
+                        <div class="categoryItem">
+                            <img src="./public/images/47.png" alt="#">
+                        </div>
+                        <a href="#">Spagheti</a>
+                    </li>
+                    <li class="active">
+                        <div class="categoryItem">
+                            <img src="./public/images/48.png" alt="#">
+                        </div>
+                        <a href="#">Salad</a>
+                    </li>
+                    <li>
+                        <div class="categoryItem">
+                            <img src="./public/images/50.png" alt="#">
+                        </div>
+                        <a href="#">Pizza</a>
+                    </li>
+                    <li>
+                        <div class="categoryItem">
+                            <img src="./public/images/125.png" alt="#">
+                        </div>
+                        <a href="#">Frewch Fries</a>
+                    </li>
+                    <li>
+                        <div class="categoryItem">
+                            <img src="./public/images/126.png" alt="#">
+                        </div>
+                        <a href="#">Hibachi Chicken</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- SLIDES SHOW SAN PHAM -->
+            <div style="width: 100%;" class="productInCategoryArea">
+                <div class="carousel"
+                    data-flickity='{ "freeScroll": true, "wrapAround": true,"pageDots": false, "cellAlign": "left" }'>
+                    <!-- item 3 -->
+                    <div class="carousel-cell">
+                        <div class="item-carousel">
+                            <div class="product-images-container">
+                                <!-- LABEL -->
+                                <span class="categoryLabel labelShopByCategoryArea">
+                                    <span class="categoryContent hot">
+                                        -15%
+                                    </span>
+                                </span>
+
+                                <!-- image -->
+                                <img src="./public/images/product-img/products.psd_0005_chick-fil-a_waffle_potato_fries.jpg"
+                                    alt="item" class="product-image-photo">
+                                <img src="./public/images/product-img/products.psd_0006_grilled_cool_wrap_.jpg"
+                                    alt="item" class="product-image-photo hover">
+
+                                <!-- ACTION BAR -->
+                                <div class="product-action-container">
+                                    <span class="action-btn action-view">
+                                        <a href="#"><i class="far fa-eye"></i></a>
+                                    </span>
+                                    <span class="action-btn highlight">
+                                        <a href="#"> <i class="fas fa-shopping-bag"></i></a>
+                                    </span>
+                                    <span class="action-btn action-like">
+                                        <a href="#"><i class="far fa-heart"></i></a>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="product-details-container">
+                                <h6 class="category_name"><a href="#">Fast Food</a></h6>
+
+                                <h2 class="product-name"> <a href="#"
+                                        title="Etiam eget aliquet">
+                                        Bibendum egestas justo</a> </h2>
+
+                                <div class="product-reviews-bar">
+                                    <div class="rating-summary no-star">
+                                        <i class="far fa-star"></i><i class="far fa-star"></i><i
+                                            class="far fa-star"></i><i class="far fa-star"></i><i
+                                            class="far fa-star"></i>
+                                    </div>
+
+                                    <div class="reviews-actions"> <a href="#"> (0 review) </a></div>
+                                </div>
+
+                                <div class="price-box">
+                                    $36.00
+                                    <span class="old_price">$35.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- item 4 -->
+                    <div class="carousel-cell">
+                        <div class="item-carousel">
+                            <div class="product-images-container">
+                                <!-- LABEL -->
+                                <span class="categoryLabel labelShopByCategoryArea">
+                                    <span class="categoryContent new">
+                                        New
+                                    </span>
+                                </span>
+
+                                <!-- image -->
+                                <img src="./public/images/product-img/products.psd_0001_layer_6.jpg" alt="item"
+                                    class="product-image-photo">
+                                <img src="./public/images/product-img/products.psd_0002_chick-n-strips__1.jpg"
+                                    alt="item" class="product-image-photo hover">
+
+                                <!-- ACTION BAR -->
+                                <div class="product-action-container">
+                                    <span class="action-btn action-view">
+                                        <a href="#"><i class="far fa-eye"></i></a>
+                                    </span>
+                                    <span class="action-btn highlight">
+                                        <a href="#"> <i class="fas fa-shopping-bag"></i></a>
+                                    </span>
+                                    <span class="action-btn action-like">
+                                        <a href="#"><i class="far fa-heart"></i></a>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="product-details-container">
+                                <h6 class="category_name"><a href="#">Fast Food</a></h6>
+
+                                <h2 class="product-name"> <a href="#"
+                                        title="Etiam eget aliquet">
+                                        Suspendis sodales</a> </h2>
+
+                                <div class="product-reviews-bar">
+                                    <div class="rating-summary no-star">
+                                        <i class="far fa-star"></i><i class="far fa-star"></i><i
+                                            class="far fa-star"></i><i class="far fa-star"></i><i
+                                            class="far fa-star"></i>
+                                    </div>
+
+                                    <div class="reviews-actions"> <a href="#"> (0 review) </a></div>
+                                </div>
+
+                                <div class="price-box">
+                                    $23.00
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- item 5 -->
+                    <div class="carousel-cell">
+                        <div class="item-carousel">
+                            <div class="product-images-container">
+                                <!-- LABEL -->
+                                <span class="categoryLabel labelShopByCategoryArea">
+                                    <span class="categoryContent new">
+                                        New
+                                    </span>
+                                    <br>
+                                    <span class="categoryContent hot">
+                                        -35%
+                                    </span>
+                                </span>
+
+                                <!-- image -->
+                                <img src="./public/images/product-img/products.psd_0007_chick-fil-a_nuggets.jpg"
+                                    alt="item" class="product-image-photo">
+                                <img src="./public/images/product-img/products.psd_0008_chocolate_fudge_brownie.jpg"
+                                    alt="item" class="product-image-photo hover">
+
+                                <!-- ACTION BAR -->
+                                <div class="product-action-container">
+                                    <span class="action-btn action-view">
+                                        <a href="#"><i class="far fa-eye"></i></a>
+                                    </span>
+                                    <span class="action-btn highlight">
+                                        <a href="#"> <i class="fas fa-shopping-bag"></i></a>
+                                    </span>
+                                    <span class="action-btn action-like">
+                                        <a href="#"><i class="far fa-heart"></i></a>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="product-details-container">
+                                <h6 class="category_name"><a href="#">Fast Food</a></h6>
+
+                                <h2 class="product-name"> <a href="#"
+                                        title="Etiam eget aliquet">
+                                        Accumsan auctor</a> </h2>
+
+                                <div class="product-reviews-bar">
+                                    <div class="rating-summary no-star">
+                                        <i class="far fa-star"></i><i class="far fa-star"></i><i
+                                            class="far fa-star"></i><i class="far fa-star"></i><i
+                                            class="far fa-star"></i>
+                                    </div>
+
+                                    <div class="reviews-actions"> <a href="#"> (0 review) </a></div>
+                                </div>
+
+                                <div class="price-box">
+                                    $15.00
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- item 6 -->
+                    <div class="carousel-cell">
+                        <div class="item-carousel">
+                            <div class="product-images-container">
+                                <!-- LABEL -->
+                                <span class="categoryLabel labelShopByCategoryArea">
+                                    <span class="categoryContent new">
+                                        New
+                                    </span>
+                                    <br>
+                                    <span class="categoryContent hot">
+                                        -17%
+                                    </span>
+                                </span>
+
+                                <!-- image -->
+                                <img src="./public/images/product-img/products.psd_0003_chick-fil-a_deluxe_sandwich_4.45_500_cal_per_sandwich_.jpg"
+                                    alt="item" class="product-image-photo">
+                                <img src="./public/images/product-img/products.psd_0004_side_salad_4.jpg" alt="item"
+                                    class="product-image-photo hover">
+
+                                <!-- ACTION BAR -->
+                                <div class="product-action-container">
+                                    <span class="action-btn action-view">
+                                        <a href="#"><i class="far fa-eye"></i></a>
+                                    </span>
+                                    <span class="action-btn highlight">
+                                        <a href="#"> <i class="fas fa-shopping-bag"></i></a>
+                                    </span>
+                                    <span class="action-btn action-like">
+                                        <a href="#"><i class="far fa-heart"></i></a>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="product-details-container">
+                                <h6 class="category_name"><a href="#">Grilled Chicken</a></h6>
+
+                                <h2 class="product-name"> <a href="#"
+                                        title="Etiam eget aliquet">
+                                        Proin gravida</a> </h2>
+
+                                <div class="product-reviews-bar">
+                                    <div class="rating-summary no-star">
+                                        <i class="far fa-star"></i><i class="far fa-star"></i><i
+                                            class="far fa-star"></i><i class="far fa-star"></i><i
+                                            class="far fa-star"></i>
+                                    </div>
+
+                                    <div class="reviews-actions"> <a href="#"> (0 review) </a></div>
+                                </div>
+
+                                <div class="price-box">
+                                    $15.00
+                                    <span class="old_price">$18.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- item 7 -->
+                    <div class="carousel-cell">
+                        <div class="item-carousel">
+                            <div class="product-images-container">
+                                <!-- LABEL -->
+                                <span class="categoryLabel labelShopByCategoryArea">
+                                    <span class="categoryContent new">
+                                        New
+                                    </span>
+                                </span>
+
+                                <!-- image -->
+                                <img src="./public/images/product-img/products.psd_0001_layer_6.jpg" alt="item"
+                                    class="product-image-photo">
+                                <img src="./public/images/product-img/products.psd_0005_chick-fil-a_waffle_potato_fries.jpg"
+                                    alt="item" class="product-image-photo hover">
+
+                                <!-- ACTION BAR -->
+                                <div class="product-action-container">
+                                    <span class="action-btn action-view">
+                                        <a href="#"><i class="far fa-eye"></i></a>
+                                    </span>
+                                    <span class="action-btn highlight">
+                                        <a href="#"> <i class="fas fa-shopping-bag"></i></a>
+                                    </span>
+                                    <span class="action-btn action-like">
+                                        <a href="#"><i class="far fa-heart"></i></a>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="product-details-container">
+                                <h6 class="category_name"><a href="#">SandWich</a></h6>
+
+                                <h2 class="product-name"> <a href="#"
+                                        title="Etiam eget aliquet">
+                                        Orange Juice</a> </h2>
+
+                                <div class="product-reviews-bar">
+                                    <div class="rating-summary">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+
+                                    <div class="reviews-actions"> <a href="#"> (2 reviews) </a></div>
+                                </div>
+
+                                <div class="price-box">
+                                    $23.00
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- item 8 -->
+                    <div class="carousel-cell">
+                        <div class="item-carousel">
+                            <div class="product-images-container">
+                                <!-- LABEL -->
+                                <span class="categoryLabel labelShopByCategoryArea">
+                                    <span class="categoryContent new">
+                                        New
+                                    </span>
+                                </span>
+
+                                <!-- image -->
+                                <img src="./public/images/product-img/products.psd_0009_bacon_cheeseburger_meal.jpg"
+                                    alt="item" class="product-image-photo">
+                                <img src="./public/images/product-img/products.psd_0010_layer_7_1.jpg" alt="item"
+                                    class="product-image-photo hover">
+
+                                <!-- ACTION BAR -->
+                                <div class="product-action-container">
+                                    <span class="action-btn action-view">
+                                        <a href="#"><i class="far fa-eye"></i></a>
+                                    </span>
+                                    <span class="action-btn highlight">
+                                        <a href="#"> <i class="fas fa-shopping-bag"></i></a>
+                                    </span>
+                                    <span class="action-btn action-like">
+                                        <a href="#"><i class="far fa-heart"></i></a>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="product-details-container">
+                                <h6 class="category_name"><a href="#">SandWich</a></h6>
+
+                                <h2 class="product-name"> <a href="#"
+                                        title="Etiam eget aliquet">
+                                        Orange Juice</a> </h2>
+
+                                <div class="product-reviews-bar">
+                                    <div class="rating-summary no-star">
+
+                                        <i class="far fa-star"></i><i class="far fa-star"></i><i
+                                            class="far fa-star"></i><i class="far fa-star"></i><i
+                                            class="far fa-star"></i>
+                                    </div>
+
+                                    <div class="reviews-actions"> <a href="#"> (0 review) </a></div>
+                                </div>
+
+                                <div class="price-box">
+                                    $26.00
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- item 9 -->
+                    <div class="carousel-cell">
+                        <div class="item-carousel">
+                            <div class="product-images-container">
+                                <!-- LABEL -->
+                                <span class="categoryLabel labelShopByCategoryArea">
+                                    <span class="categoryContent new">
+                                        New
+                                    </span>
+                                </span>
+
+                                <!-- image -->
+                                <img src="./public/images/product-img/products.psd_0004_side_salad_4.jpg" alt="item"
+                                    class="product-image-photo">
+                                <img src="./public/images/product-img/products.psd_0007_chick-fil-a_nuggets.jpg"
+                                    alt="item" class="product-image-photo hover">
+
+                                <!-- ACTION BAR -->
+                                <div class="product-action-container">
+                                    <span class="action-btn action-view">
+                                        <a href="#"><i class="far fa-eye"></i></a>
+                                    </span>
+                                    <span class="action-btn highlight">
+                                        <a href="#"> <i class="fas fa-shopping-bag"></i></a>
+                                    </span>
+                                    <span class="action-btn action-like">
+                                        <a href="#"><i class="far fa-heart"></i></a>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="product-details-container">
+                                <h6 class="category_name"><a href="#">SandWich</a></h6>
+
+                                <h2 class="product-name"> <a href="#"
+                                        title="Etiam eget aliquet">
+                                        Apple Juice</a> </h2>
+
+                                <div class="product-reviews-bar">
+                                    <div class="rating-summary no-star">
+
+                                        <i class="far fa-star"></i><i class="far fa-star"></i><i
+                                            class="far fa-star"></i><i class="far fa-star"></i><i
+                                            class="far fa-star"></i>
+                                    </div>
+
+                                    <div class="reviews-actions"> <a href="#"> (0 review) </a></div>
+                                </div>
+
+                                <div class="price-box">
+                                    $4.90
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- item 10 -->
+                    <div class="carousel-cell">
+                        <div class="item-carousel">
+                            <div class="product-images-container">
+                                <!-- LABEL -->
+                                <span class="categoryLabel labelShopByCategoryArea">
+                                    <span class="categoryContent new">
+                                        New
+                                    </span>
+                                </span>
+
+                                <!-- image -->
+                                <img src="./public/images/product-img/products.psd_0000_grilled_chicken_club_grilled_chicken_club_.jpg"
+                                    alt="item" class="product-image-photo">
+                                <img src="./public/images/product-img/products.psd_0002_chick-n-strips__1.jpg"
+                                    alt="item" class="product-image-photo hover">
+
+                                <!-- ACTION BAR -->
+                                <div class="product-action-container">
+                                    <span class="action-btn action-view">
+                                        <a href="#"><i class="far fa-eye"></i></a>
+                                    </span>
+                                    <span class="action-btn highlight">
+                                        <a href="#"> <i class="fas fa-shopping-bag"></i></a>
+                                    </span>
+                                    <span class="action-btn action-like">
+                                        <a href="#"><i class="far fa-heart"></i></a>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="product-details-container">
+                                <h6 class="category_name"><a href="#">SandWich</a></h6>
+
+                                <h2 class="product-name"> <a href="#"
+                                        title="Etiam eget aliquet">
+                                        Iced Tea</a> </h2>
+
+                                <div class="product-reviews-bar">
+                                    <div class="rating-summary">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i>
+                                    </div>
+
+                                    <div class="reviews-actions"> <a href="#"> (3 review) </a></div>
+                                </div>
+
+                                <div class="price-box">
+                                    $3.50
+                                    <span class="old_price">$3.90</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- item 1 -->
+                    <div class="carousel-cell">
+                        <div class="item-carousel">
+                            <div class="product-images-container">
+                                <!-- LABEL -->
+                                <span class="categoryLabel labelShopByCategoryArea">
+                                    <span class="categoryContent new">
+                                        New
+                                    </span>
+                                    <br>
+                                    <span class="categoryContent hot">
+                                        - 8%
+                                    </span>
+                                </span>
+
+                                <!-- image -->
+                                <img src="./public/images/product-img/products.psd_0000_grilled_chicken_club_grilled_chicken_club_.jpg"
+                                    alt="item" class="product-image-photo">
+                                <img src="./public/images/product-img/products.psd_0003_chick-fil-a_deluxe_sandwich_4.45_500_cal_per_sandwich_.jpg"
+                                    alt="item" class="product-image-photo hover">
+
+                                <!-- ACTION BAR -->
+                                <div class="product-action-container">
+                                    <span class="action-btn action-view">
+                                        <a href="#"><i class="far fa-eye"></i></a>
+                                    </span>
+                                    <span class="action-btn highlight">
+                                        <a href="#"> <i class="fas fa-shopping-bag"></i></a>
+                                    </span>
+                                    <span class="action-btn action-like">
+                                        <a href="#"><i class="far fa-heart"></i></a>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="product-details-container">
+                                <h6 class="category_name"><a href="#">Burger</a></h6>
+
+                                <h2 class="product-name"> <a href="#"
+                                        title="Etiam eget aliquet">
+                                        Etiam
+                                        eget aliquet</a> </h2>
+
+                                <div class="product-reviews-bar">
+                                    <div class="rating-summary">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i>
+                                    </div>
+
+                                    <div class="reviews-actions"> <a href="#"> (1 review) </a></div>
+                                </div>
+
+                                <div class="price-box">
+                                    $36.00
+                                    <span class="old_price">$35.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- item 2 -->
+                    <div class="carousel-cell">
+                        <div class="item-carousel">
+                            <div class="product-images-container">
+                                <!-- LABEL -->
+                                <span class="categoryLabel labelShopByCategoryArea">
+                                    <span class="categoryContent new">
+                                        New
+                                    </span>
+                                    <br>
+                                    <span class="categoryContent hot">
+                                        -30%
+                                    </span>
+                                </span>
+
+                                <!-- image -->
+                                <img src="./public/images/product-img/products.psd_0000_grilled_chicken_club_grilled_chicken_club_.jpg"
+                                    alt="item" class="product-image-photo">
+                                <img src="./public/images/product-img/products.psd_0001_layer_6.jpg" alt="item"
+                                    class="product-image-photo hover">
+
+                                <!-- ACTION BAR -->
+                                <div class="product-action-container">
+                                    <span class="action-btn action-view">
+                                        <a href="#"><i class="far fa-eye"></i></a>
+                                    </span>
+                                    <span class="action-btn highlight">
+                                        <a href="#"> <i class="fas fa-shopping-bag"></i></a>
+                                    </span>
+                                    <span class="action-btn action-like">
+                                        <a href="#"><i class="far fa-heart"></i></a>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="product-details-container">
+                                <h6 class="category_name"><a href="#">Fast Food</a></h6>
+
+                                <h2 class="product-name"> <a href="#"
+                                        title="Etiam eget aliquet">
+                                        Maenas
+                                        Vehicula Ornare </a> </h2>
+
+                                <div class="product-reviews-bar">
+                                    <div class="rating-summary">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i>
+                                    </div>
+
+                                    <div class="reviews-actions"> <a href="#"> (1 review) </a></div>
+                                </div>
+
+                                <div class="price-box">
+                                    $16.10
+                                    <span class="old_price">$23.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PARALAX AREA -->
+    <div id="paralax-bg" class="paralax-bg">
+        <div class="container">
+            <!-- COUNTDOWN TIMER -->
+            <div class="count-down-time">
+                <div class="timing-countdown" data-timer="1/18/2022">
+                    <div class="timer-box"><span class="time-dislay day">202</span><span
+                            class="count-down-title">Days</span></div>
+                    <div class="timer-box"><span class="time-dislay hour">23</span><span
+                            class="count-down-title">Hrs</span></div>
+                    <div class="timer-box"><span class="time-dislay min">42</span><span
+                            class="count-down-title">Mins</span></div>
+                    <div class="timer-box"><span class="time-dislay sec">47</span><span
+                            class="count-down-title">Secs</span></div>
+                </div>
+            </div>
+
+            <!-- CONTENT WRAPPER -->
+            <div class="sale-off-content">
+                <div class="row">
+                    <div style="text-align: center;" class="col-xl-6 col-lg-6 col-sm-6 col-12">
+                        <a href="#paralax-bg">
+                            <img class="img-fluid" src="./public/images/static_product.jpg" alt="#">
+                        </a>
+                    </div>
+
+                    <div class="col-xl-6 col-lg-6 col-sm-6 col-12 deal-content">
+                        <h6 class="sale-off-title">Deals of the week</h6>
+                        <h1 class="sale-off-value">Sale off <span style="color: #f05127;">20%</span></h1>
+                        <p class="sale-off-p-content">On all combos with fried food.</p>
+                        <div><a class="sale-off-btn" href="#">Shop Now</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FEATURE DISHES AREA -->
+    <div class="feature-dishes-area">
+        <div class="container">
+            <div style="position: relative;">
+                <h3 class="title">featured dishes</h3>
+                <a class='view-all' href="#">View All <i class="fas fa-angle-double-right"></i></a>
+            </div>
+
+            <!-- SLIDES SHOW FEATURE DISHES AREA -->
+            <div class="slide-show-feature-dishes">
+                <div class="carousel" data-flickity='{ "freeScroll": true, "contain": true,
+                "prevNextButtons": false,
+                "pageDots": false, "cellAlign": "left", "wrapAround": true }'>
+                    <!-- item 1,2 -->
+                    <div class="carousel-cell">
+                        <!-- item 1 -->
+                        <div class="item-carousel">
+                            <div class="product-images-container">
+                                <!-- LABEL -->
+                                <span class="categoryLabel labelShopByCategoryArea">
+                                    <span class="categoryContent new">
+                                        New
+                                    </span>
+                                    <br>
+                                    <span class="categoryContent hot">
+                                        - 8%
+                                    </span>
+                                </span>
+
+                                <!-- image -->
+                                <img src="./public/images/product-img/products.psd_0000_grilled_chicken_club_grilled_chicken_club_.jpg"
+                                    alt="item" class="product-image-photo">
+                                <img src="./public/images/product-img/products.psd_0003_chick-fil-a_deluxe_sandwich_4.45_500_cal_per_sandwich_.jpg"
+                                    alt="item" class="product-image-photo hover">
+
+                                <!-- ACTION BAR -->
+                                <div class="product-action-container">
+                                    <span class="action-btn action-view">
+                                        <a href="#"><i class="far fa-eye"></i></a>
+                                    </span>
+                                    <span class="action-btn highlight">
+                                        <a href="#"> <i class="fas fa-shopping-bag"></i></a>
+                                    </span>
+                                    <span class="action-btn action-like">
+                                        <a href="#"><i class="far fa-heart"></i></a>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="product-details-container">
+                                <h6 class="category_name"><a href="#">Burger</a></h6>
+
+                                <h2 class="product-name"> <a href="#"
+                                        title="Etiam eget aliquet">
+                                        Etiam
+                                        eget aliquet</a> </h2>
+
+                                <div class="product-reviews-bar">
+                                    <div class="rating-summary">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i>
+                                    </div>
+
+                                    <div class="reviews-actions"> <a href="#"> (1 review) </a></div>
+                                </div>
+
+                                <div class="price-box">
+                                    $36.00
+                                    <span class="old_price">$35.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- item 2 -->
+                        <div class="item-carousel">
+                            <div class="product-images-container">
+                                <!-- LABEL -->
+                                <span class="categoryLabel labelShopByCategoryArea">
+                                    <span class="categoryContent new">
+                                        New
+                                    </span>
+                                    <br>
+                                    <span class="categoryContent hot">
+                                        -30%
+                                    </span>
+                                </span>
+
+                                <!-- image -->
+                                <img src="./public/images/product-img/products.psd_0000_grilled_chicken_club_grilled_chicken_club_.jpg"
+                                    alt="item" class="product-image-photo">
+                                <img src="./public/images/product-img/products.psd_0001_layer_6.jpg" alt="item"
+                                    class="product-image-photo hover">
+
+                                <!-- ACTION BAR -->
+                                <div class="product-action-container">
+                                    <span class="action-btn action-view">
+                                        <a href="#"><i class="far fa-eye"></i></a>
+                                    </span>
+                                    <span class="action-btn highlight">
+                                        <a href="#"> <i class="fas fa-shopping-bag"></i></a>
+                                    </span>
+                                    <span class="action-btn action-like">
+                                        <a href="#"><i class="far fa-heart"></i></a>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="product-details-container">
+                                <h6 class="category_name"><a href="#">Fast Food</a></h6>
+
+                                <h2 class="product-name"> <a href="#"
+                                        title="Etiam eget aliquet">
+                                        Maenas
+                                        Vehicula Ornare </a> </h2>
+
+                                <div class="product-reviews-bar">
+                                    <div class="rating-summary">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i>
+                                    </div>
+
+                                    <div class="reviews-actions"> <a href="#"> (1 review) </a></div>
+                                </div>
+
+                                <div class="price-box">
+                                    $16.10
+                                    <span class="old_price">$23.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- item 3,4 -->
+                    <div class="carousel-cell">
+                        <!-- item 3 -->
+                        <div class="item-carousel">
+                            <div class="product-images-container">
+                                <!-- LABEL -->
+                                <span class="categoryLabel labelShopByCategoryArea">
+                                    <span class="categoryContent hot">
+                                        -15%
+                                    </span>
+                                </span>
+
+                                <!-- image -->
+                                <img src="./public/images/product-img/products.psd_0005_chick-fil-a_waffle_potato_fries.jpg"
+                                    alt="item" class="product-image-photo">
+                                <img src="./public/images/product-img/products.psd_0006_grilled_cool_wrap_.jpg"
+                                    alt="item" class="product-image-photo hover">
+
+                                <!-- ACTION BAR -->
+                                <div class="product-action-container">
+                                    <span class="action-btn action-view">
+                                        <a href="#"><i class="far fa-eye"></i></a>
+                                    </span>
+                                    <span class="action-btn highlight">
+                                        <a href="#"> <i class="fas fa-shopping-bag"></i></a>
+                                    </span>
+                                    <span class="action-btn action-like">
+                                        <a href="#"><i class="far fa-heart"></i></a>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="product-details-container">
+                                <h6 class="category_name"><a href="#">Fast Food</a></h6>
+
+                                <h2 class="product-name"> <a href="#"
+                                        title="Etiam eget aliquet">
+                                        Bibendum egestas justo</a> </h2>
+
+                                <div class="product-reviews-bar">
+                                    <div class="rating-summary no-star">
+                                        <i class="far fa-star"></i><i class="far fa-star"></i><i
+                                            class="far fa-star"></i><i class="far fa-star"></i><i
+                                            class="far fa-star"></i>
+                                    </div>
+
+                                    <div class="reviews-actions"> <a href="#"> (0 review) </a></div>
+                                </div>
+
+                                <div class="price-box">
+                                    $36.00
+                                    <span class="old_price">$35.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- item 4 -->
+                        <div class="item-carousel">
+                            <div class="product-images-container">
+                                <!-- LABEL -->
+                                <span class="categoryLabel labelShopByCategoryArea">
+                                    <span class="categoryContent new">
+                                        New
+                                    </span>
+                                </span>
+
+                                <!-- image -->
+                                <img src="./public/images/product-img/products.psd_0001_layer_6.jpg" alt="item"
+                                    class="product-image-photo">
+                                <img src="./public/images/product-img/products.psd_0002_chick-n-strips__1.jpg"
+                                    alt="item" class="product-image-photo hover">
+
+                                <!-- ACTION BAR -->
+                                <div class="product-action-container">
+                                    <span class="action-btn action-view">
+                                        <a href="#"><i class="far fa-eye"></i></a>
+                                    </span>
+                                    <span class="action-btn highlight">
+                                        <a href="#"> <i class="fas fa-shopping-bag"></i></a>
+                                    </span>
+                                    <span class="action-btn action-like">
+                                        <a href="#"><i class="far fa-heart"></i></a>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="product-details-container">
+                                <h6 class="category_name"><a href="#">Fast Food</a></h6>
+
+                                <h2 class="product-name"> <a href="#"
+                                        title="Etiam eget aliquet">
+                                        Suspendis sodales</a> </h2>
+
+                                <div class="product-reviews-bar">
+                                    <div class="rating-summary no-star">
+                                        <i class="far fa-star"></i><i class="far fa-star"></i><i
+                                            class="far fa-star"></i><i class="far fa-star"></i><i
+                                            class="far fa-star"></i>
+                                    </div>
+
+                                    <div class="reviews-actions"> <a href="#"> (0 review) </a></div>
+                                </div>
+
+                                <div class="price-box">
+                                    $23.00
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- item 5,6 -->
+                    <div class="carousel-cell">
+                        <!-- item 5 -->
+                        <div class="item-carousel">
+                            <div class="product-images-container">
+                                <!-- LABEL -->
+                                <span class="categoryLabel labelShopByCategoryArea">
+                                    <span class="categoryContent new">
+                                        New
+                                    </span>
+                                    <br>
+                                    <span class="categoryContent hot">
+                                        -35%
+                                    </span>
+                                </span>
+
+                                <!-- image -->
+                                <img src="./public/images/product-img/products.psd_0007_chick-fil-a_nuggets.jpg"
+                                    alt="item" class="product-image-photo">
+                                <img src="./public/images/product-img/products.psd_0008_chocolate_fudge_brownie.jpg"
+                                    alt="item" class="product-image-photo hover">
+
+                                <!-- ACTION BAR -->
+                                <div class="product-action-container">
+                                    <span class="action-btn action-view">
+                                        <a href="#"><i class="far fa-eye"></i></a>
+                                    </span>
+                                    <span class="action-btn highlight">
+                                        <a href="#"> <i class="fas fa-shopping-bag"></i></a>
+                                    </span>
+                                    <span class="action-btn action-like">
+                                        <a href="#"><i class="far fa-heart"></i></a>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="product-details-container">
+                                <h6 class="category_name"><a href="#">Fast Food</a></h6>
+
+                                <h2 class="product-name"> <a href="#"
+                                        title="Etiam eget aliquet">
+                                        Accumsan auctor</a> </h2>
+
+                                <div class="product-reviews-bar">
+                                    <div class="rating-summary no-star">
+                                        <i class="far fa-star"></i><i class="far fa-star"></i><i
+                                            class="far fa-star"></i><i class="far fa-star"></i><i
+                                            class="far fa-star"></i>
+                                    </div>
+
+                                    <div class="reviews-actions"> <a href="#"> (0 review) </a></div>
+                                </div>
+
+                                <div class="price-box">
+                                    $15.00
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- item 6 -->
+                        <div class="item-carousel">
+                            <div class="product-images-container">
+                                <!-- LABEL -->
+                                <span class="categoryLabel labelShopByCategoryArea">
+                                    <span class="categoryContent new">
+                                        New
+                                    </span>
+                                    <br>
+                                    <span class="categoryContent hot">
+                                        -17%
+                                    </span>
+                                </span>
+
+                                <!-- image -->
+                                <img src="./public/images/product-img/products.psd_0003_chick-fil-a_deluxe_sandwich_4.45_500_cal_per_sandwich_.jpg"
+                                    alt="item" class="product-image-photo">
+                                <img src="./public/images/product-img/products.psd_0004_side_salad_4.jpg" alt="item"
+                                    class="product-image-photo hover">
+
+                                <!-- ACTION BAR -->
+                                <div class="product-action-container">
+                                    <span class="action-btn action-view">
+                                        <a href="#"><i class="far fa-eye"></i></a>
+                                    </span>
+                                    <span class="action-btn highlight">
+                                        <a href="#"> <i class="fas fa-shopping-bag"></i></a>
+                                    </span>
+                                    <span class="action-btn action-like">
+                                        <a href="#"><i class="far fa-heart"></i></a>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="product-details-container">
+                                <h6 class="category_name"><a href="#">Grilled Chicken</a></h6>
+
+                                <h2 class="product-name"> <a href="#"
+                                        title="Etiam eget aliquet">
+                                        Proin gravida</a> </h2>
+
+                                <div class="product-reviews-bar">
+                                    <div class="rating-summary no-star">
+                                        <i class="far fa-star"></i><i class="far fa-star"></i><i
+                                            class="far fa-star"></i><i class="far fa-star"></i><i
+                                            class="far fa-star"></i>
+                                    </div>
+
+                                    <div class="reviews-actions"> <a href="#"> (0 review) </a></div>
+                                </div>
+
+                                <div class="price-box">
+                                    $15.00
+                                    <span class="old_price">$18.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- item 7,8 -->
+                    <div class="carousel-cell">
+                        <!-- item 7 -->
+                        <div class="item-carousel">
+                            <div class="product-images-container">
+                                <!-- LABEL -->
+                                <span class="categoryLabel labelShopByCategoryArea">
+                                    <span class="categoryContent new">
+                                        New
+                                    </span>
+                                </span>
+
+                                <!-- image -->
+                                <img src="./public/images/product-img/products.psd_0001_layer_6.jpg" alt="item"
+                                    class="product-image-photo">
+                                <img src="./public/images/product-img/products.psd_0004_side_salad_4.jpg" alt="item"
+                                    class="product-image-photo hover">
+
+                                <!-- ACTION BAR -->
+                                <div class="product-action-container">
+                                    <span class="action-btn action-view">
+                                        <a href="#"><i class="far fa-eye"></i></a>
+                                    </span>
+                                    <span class="action-btn highlight">
+                                        <a href="#"> <i class="fas fa-shopping-bag"></i></a>
+                                    </span>
+                                    <span class="action-btn action-like">
+                                        <a href="#"><i class="far fa-heart"></i></a>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="product-details-container">
+                                <h6 class="category_name"><a href="#">SandWich</a></h6>
+
+                                <h2 class="product-name"> <a href="#"
+                                        title="Etiam eget aliquet">
+                                        Orange Juice</a> </h2>
+
+                                <div class="product-reviews-bar">
+                                    <div class="rating-summary">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i>
+                                    </div>
+
+                                    <div class="reviews-actions"> <a href="#"> (2 reviews) </a></div>
+                                </div>
+
+                                <div class="price-box">
+                                    $23.00
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- item 8 -->
+                        <div class="item-carousel">
+                            <div class="product-images-container">
+                                <!-- LABEL -->
+                                <span class="categoryLabel labelShopByCategoryArea">
+                                    <span class="categoryContent new">
+                                        New
+                                    </span>
+                                </span>
+
+                                <!-- image -->
+                                <img src="./public/images/product-img/products.psd_0009_bacon_cheeseburger_meal.jpg"
+                                    alt="item" class="product-image-photo">
+                                <img src="./public/images/product-img/products.psd_0010_layer_7_1.jpg" alt="item"
+                                    class="product-image-photo hover">
+
+                                <!-- ACTION BAR -->
+                                <div class="product-action-container">
+                                    <span class="action-btn action-view">
+                                        <a href="#"><i class="far fa-eye"></i></a>
+                                    </span>
+                                    <span class="action-btn highlight">
+                                        <a href="#"> <i class="fas fa-shopping-bag"></i></a>
+                                    </span>
+                                    <span class="action-btn action-like">
+                                        <a href="#"><i class="far fa-heart"></i></a>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="product-details-container">
+                                <h6 class="category_name"><a href="#">SandWich</a></h6>
+
+                                <h2 class="product-name"> <a href="#"
+                                        title="Etiam eget aliquet">
+                                        Orange Juice</a> </h2>
+
+                                <div class="product-reviews-bar">
+                                    <div class="rating-summary no-star">
+
+                                        <i class="far fa-star"></i><i class="far fa-star"></i><i
+                                            class="far fa-star"></i><i class="far fa-star"></i><i
+                                            class="far fa-star"></i>
+                                    </div>
+
+                                    <div class="reviews-actions"> <a href="#"> (0 review) </a></div>
+                                </div>
+
+                                <div class="price-box">
+                                    $26.00
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BANNER AREA -->
+    <div class="banner-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <div class="banner-content">
+                        <div style="position: relative;">
+                            <a href="#">
+                                <img class="banner-img img-custom-banner" src="./public/images/bn_3.jpg" alt="#">
+                            </a>
+                        </div>
+
+                        <div class="banner-des text-center">
+                            <h6 class="sale-off-title">more delicious dishes</h6>
+                            <p class="sideMenuContentPTag">G20% off fried food</p>
+                            <div class="inside-banner-des">
+                                <strong class="sale">
+                                    <sup>$</sup>
+                                    25
+                                    <sup>.50</sup>
+                                </strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="banner-content">
+                                <div style="position: relative;">
+                                    <a href="#">
+                                        <img class="img-custom-banner" src="./public/images/bn_4.jpg" alt="#">
+                                    </a>
+                                </div>
+
+                                <div class="banner-des text-end">
+                                    <h6 class="sale-off-title">New dishes</h6>
+                                    <p class="sideMenuContentPTag">Slim wraps</p>
+                                    <div class="inside-banner-des text-orange">
+                                        <strong class="sale">
+                                            <sup>$</sup>
+                                            10
+                                            <sup>.50</sup>
+                                        </strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="banner-content">
+                                <div style="position: relative;">
+                                    <a href="#">
+                                        <img class="img-custom-banner" src="./public/images/bn_5.jpg" alt="#">
+                                    </a>
+                                </div>
+
+                                <div class="banner-des text-start">
+                                    <h6 class="sale-off-title">Sale of 20%</h6>
+                                    <p class="sideMenuContentPTag">Potato fries</p>
+                                    <div class="inside-banner-des text-orange">
+                                        <strong class="sale">
+                                            <sup>$</sup>
+                                            8
+                                            <sup>.50</sup>
+                                        </strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="banner-content">
+                        <div style="position: relative;">
+                            <a href="#">
+                                <img class="banner-img-4 img-custom-banner" src="./public/images/bn_6.jpg" alt="#">
+                            </a>
+                        </div>
+
+                        <div class="banner-des text-center banner-4">
+                            <h6 class="sale-off-title">Double meat</h6>
+                            <p class="sideMenuContentPTag">Beef burger</p>
+                            <div class="inside-banner-des text-orange">
+                                <strong class="sale">
+                                    <sup>$</sup>
+                                    13
+                                    <sup>.50</sup>
+                                </strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SALE OFF, TOP SELLER, TESTIMONIALS AREA-->
+    <div class="three-blocks-area">
+        <div class="container">
+            <div class="row gy-3">
+                <!-- SALE OFF COLUMN -->
+                <div class="col-xl-4 col-md-6 col-12">
+                    <div>
+                        <h3 class="title">Sale Off</h3>
+                    </div>
+
+                    <div class="three-blocks-area-item-container">
+                        <!-- ITEM 1 -->
+                        <div class="three-blocks-area-item">
+                            <div class="row align-items-center">
+                                <div class="col-xl-5 col-md-5 col-5">
+                                    <div class="product-images-container">
+                                        <!-- LABEL -->
+                                        <span class="categoryLabel labelShopByCategoryArea">
+                                            <span class="categoryContent new">
+                                                New
+                                            </span>
+                                            <br>
+                                            <span class="categoryContent hot">
+                                                - 8%
+                                            </span>
+                                        </span>
+
+                                        <!-- image -->
+                                        <div>
+                                            <img src="./public/images/product-img/products.psd_0000_grilled_chicken_club_grilled_chicken_club_.jpg"
+                                                alt="item" class="product-image-photo">
+                                            <img src="./public/images/product-img/products.psd_0003_chick-fil-a_deluxe_sandwich_4.45_500_cal_per_sandwich_.jpg"
+                                                alt="item" class="product-image-photo hover">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-7 col-md-7 col-7">
+                                    <div class="product-details-container">
+                                        <h6 class="category_name"><a href="#">Burger</a></h6>
+
+                                        <h2 class="product-name"> <a href="#"
+                                                title="Etiam eget aliquet">
+                                                Etiam
+                                                eget aliquet</a> </h2>
+
+                                        <div class="price-box">
+                                            $36.00
+                                            <span class="old_price">$35.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ITEM 2 -->
+                        <div class="three-blocks-area-item">
+                            <div class="row align-items-center">
+                                <div class="col-xl-5 col-md-5 col-5">
+                                    <div class="product-images-container">
+                                        <!-- LABEL -->
+                                        <span class="categoryLabel labelShopByCategoryArea">
+                                            <span class="categoryContent new">
+                                                New
+                                            </span>
+                                            <br>
+                                            <span class="categoryContent hot">
+                                                -25%
+                                            </span>
+                                        </span>
+
+                                        <!-- image -->
+                                        <div>
+                                            <img src="./public/images/product-img/products_0000s_0000_16_4.jpg"
+                                                alt="item" class="product-image-photo">
+                                            <img src="./public/images/product-img/products_0000s_0001_16b_4.jpg"
+                                                alt="item" class="product-image-photo hover">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-7 col-md-7 col-7">
+                                    <div class="product-details-container">
+                                        <h6 class="category_name"><a href="#">Shop</a></h6>
+
+                                        <h2 class="product-name"> <a href="#"
+                                                title="Etiam eget aliquet">
+                                                Product 1</a> </h2>
+
+                                        <div class="price-box">
+                                            $15.00
+                                            <span class="old_price">$20.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ITEM 3 -->
+                        <div class="three-blocks-area-item">
+                            <div class="row align-items-center">
+                                <div class="col-xl-5 col-md-5 col-5">
+                                    <div class="product-images-container">
+                                        <!-- LABEL -->
+                                        <span class="categoryLabel labelShopByCategoryArea">
+                                            <span class="categoryContent new">
+                                                New
+                                            </span>
+                                            <br>
+                                            <span class="categoryContent hot">
+                                                -10%
+                                            </span>
+                                        </span>
+
+                                        <!-- image -->
+                                        <div>
+                                            <img src="./public/images/product-img/products_0004s_0000_layer_8921.jpg"
+                                                alt="item" class="product-image-photo">
+                                            <img src="./public/images/product-img/products_0004s_0001_layer_894.jpg"
+                                                alt="item" class="product-image-photo hover">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-7 col-md-7 col-7">
+                                    <div class="product-details-container">
+                                        <h6 class="category_name"><a href="#">Vegetable</a></h6>
+
+                                        <h2 class="product-name"> <a href="#"
+                                                title="Etiam eget aliquet">
+                                                Vegetable Product 10</a> </h2>
+
+                                        <div class="price-box">
+                                            $90.00
+                                            <span class="old_price">$100.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TOP SELLER COLUMN -->
+                <div class="col-xl-4 col-md-6 col-12">
+                    <div>
+                        <h3 class="title">Top Seller</h3>
+                    </div>
+
+                    <div class="three-blocks-area-item-container">
+                        <!-- ITEM 1 -->
+                        <div class="three-blocks-area-item">
+                            <div class="row align-items-center">
+                                <div class="col-xl-5 col-md-5 col-5">
+                                    <div class="product-images-container">
+                                        <!-- LABEL -->
+                                        <span class="categoryLabel labelShopByCategoryArea">
+                                            <span class="categoryContent new">
+                                                New
+                                            </span>
+                                            <br>
+                                            <span class="categoryContent hot">
+                                                -17%
+                                            </span>
+                                        </span>
+
+                                        <!-- image -->
+                                        <div>
+                                            <img src="./public/images/product-img/products.psd_0003_chick-fil-a_deluxe_sandwich_4.45_500_cal_per_sandwich_.jpg"
+                                                alt="item" class="product-image-photo">
+                                            <img src="./public/images/product-img/products.psd_0004_side_salad_4.jpg"
+                                                alt="item" class="product-image-photo hover">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-7 col-md-7 col-7">
+                                    <div class="product-details-container">
+                                        <h6 class="category_name"><a href="#">Grilled
+                                                Chicken</a></h6>
+
+                                        <h2 class="product-name"> <a href="#"
+                                                title="Etiam eget aliquet">
+                                                Proin gravida</a> </h2>
+
+                                        <div class="price-box">
+                                            $15.00
+                                            <span class="old_price">$18.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ITEM 2 -->
+                        <div class="three-blocks-area-item">
+                            <div class="row align-items-center">
+                                <div class="col-xl-5 col-md-5 col-5">
+                                    <div class="product-images-container">
+                                        <!-- LABEL -->
+                                        <span class="categoryLabel labelShopByCategoryArea">
+                                            <span class="categoryContent new">
+                                                New
+                                            </span>
+                                            <br>
+                                        </span>
+
+                                        <!-- image -->
+                                        <div>
+                                            <img src="./public/images/product-img/products.psd_0009_bacon_cheeseburger_meal.jpg"
+                                                alt="item" class="product-image-photo">
+                                            <img src="./public/images/product-img/products.psd_0010_layer_7_1.jpg"
+                                                alt="item" class="product-image-photo hover">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-7 col-md-7 col-7">
+                                    <div class="product-details-container">
+                                        <h6 class="category_name"><a href="#">Sandwich</a></h6>
+
+                                        <h2 class="product-name"> <a href="#"
+                                                title="Etiam eget aliquet">
+                                                Orange Juice</a> </h2>
+
+                                        <div class="price-box">
+                                            $26.00
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ITEM 3 -->
+                        <div class="three-blocks-area-item">
+                            <div class="row align-items-center">
+                                <div class="col-xl-5 col-md-5 col-5">
+                                    <div class="product-images-container">
+                                        <!-- LABEL -->
+                                        <span class="categoryLabel labelShopByCategoryArea">
+                                            <span class="categoryContent new">
+                                                New
+                                            </span>
+                                            <br>
+                                            <span class="categoryContent hot">
+                                                -11%
+                                            </span>
+                                        </span>
+
+                                        <!-- image -->
+                                        <div>
+                                            <img src="./public/images/product-img/products.psd_0000_grilled_chicken_club_grilled_chicken_club_.jpg"
+                                                alt="item" class="product-image-photo">
+                                            <img src="./public/images/product-img/products.psd_0002_chick-n-strips__1.jpg"
+                                                alt="item" class="product-image-photo hover">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-7 col-md-7 col-7">
+                                    <div class="product-details-container">
+                                        <h6 class="category_name"><a href="#">Sandwich</a></h6>
+
+                                        <h2 class="product-name"> <a href="#"
+                                                title="Etiam eget aliquet">
+                                                Iced Tea</a> </h2>
+
+                                        <div class="price-box">
+                                            $3.50
+                                            <span class="old_price">$3.90</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Testimonials COLUMN -->
+                <div class="col-xl-4 col-12 testimonials-col">
+                    <div>
+                        <h3 class="title">Testimonials</h3>
+                    </div>
+
+                    <div class="three-blocks-area-item-container testimonials">
+                        <div class="carousel" data-flickity='{ "wrapAround": true }'>
+                            <div class="carousel-cell">
+                                <div class="three-blocks-area-item">
+                                    <div class="testimonial_text">
+                                        The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                                        of letters, as opposed to using 'Content here, content here', making it look
+                                        like readable English. Many desktop publishing packages and web page editors now
+                                        use Lorem Ipsum as their default model text.
+                                    </div>
+
+                                    <div class="customer-review">
+                                        <div class="customer">
+                                            <a href="#">
+                                                <img class="img-fluid" src="./public/images/cms-static-img-12.png"
+                                                    alt="customer">
+                                            </a>
+                                        </div>
+
+                                        <div class="review-content">
+                                            <div class="product-details-container">
+                                                <h2 class="product-name"> <a href="#"
+                                                        title="Jeniffer Schott">
+                                                        Jeniffer Schott </a> </h2>
+
+                                                <div class="product-reviews-bar">
+                                                    <div class="rating-summary">
+                                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                            class="fas fa-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="desc"><i class="fas fa-quote-right"></i></div>
+                                    </div>
+                                </div>
+
+                                <div class="three-blocks-area-item">
+                                    <div class="testimonial_text">
+                                        The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                                        of letters, as opposed to using 'Content here, content here', making it look
+                                        like readable English. Many desktop publishing packages and web page editors now
+                                        use Lorem Ipsum as their default model text.
+                                    </div>
+
+                                    <div class="customer-review">
+                                        <div class="customer">
+                                            <a href="#">
+                                                <img class="img-fluid" src="./public/images/danien_1.png"
+                                                    alt="customer">
+                                            </a>
+                                        </div>
+
+                                        <div class="review-content">
+                                            <div class="product-details-container">
+                                                <h2 class="product-name"> <a href="#"
+                                                        title="Jeniffer Schott">
+                                                        Ms. Danien</a> </h2>
+
+                                                <div class="product-reviews-bar">
+                                                    <div class="rating-summary">
+                                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                            class="fas fa-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="desc"><i class="fas fa-quote-right"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-cell">
+                                <div class="three-blocks-area-item">
+                                    <div class="testimonial_text">
+                                        The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                                        of letters, as opposed to using 'Content here, content here', making it look
+                                        like readable English. Many desktop publishing packages and web page editors now
+                                        use Lorem Ipsum as their default model text.
+                                    </div>
+
+                                    <div class="customer-review">
+                                        <div class="customer">
+                                            <a href="#">
+                                                <img class="img-fluid" src="./public/images/jay-doe_1.png"
+                                                    alt="customer">
+                                            </a>
+                                        </div>
+
+                                        <div class="review-content">
+                                            <div class="product-details-container">
+                                                <h2 class="product-name"> <a href="#"
+                                                        title="Jeniffer Schott">
+                                                        Ms. Jay Doe</a> </h2>
+
+                                                <div class="product-reviews-bar">
+                                                    <div class="rating-summary">
+                                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                            class="fas fa-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="desc"><i class="fas fa-quote-right"></i></div>
+                                    </div>
+                                </div>
+
+                                <div class="three-blocks-area-item">
+                                    <div class="testimonial_text">
+                                        The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                                        of letters, as opposed to using 'Content here, content here', making it look
+                                        like readable English. Many desktop publishing packages and web page editors now
+                                        use Lorem Ipsum as their default model text.
+                                    </div>
+
+                                    <div class="customer-review">
+                                        <div class="customer">
+                                            <a href="#">
+                                                <img class="img-fluid" src="./public/images/braun_1.png" alt="customer">
+                                            </a>
+                                        </div>
+
+                                        <div class="review-content">
+                                            <div class="product-details-container">
+                                                <h2 class="product-name"> <a href="#"
+                                                        title="Jeniffer Schott">
+                                                        Mr. Braun</a> </h2>
+
+                                                <div class="product-reviews-bar">
+                                                    <div class="rating-summary">
+                                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                            class="fas fa-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="desc"><i class="fas fa-quote-right"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-cell">
+                                <div class="three-blocks-area-item">
+                                    <div class="testimonial_text">
+                                        The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                                        of letters, as opposed to using 'Content here, content here', making it look
+                                        like readable English. Many desktop publishing packages and web page editors now
+                                        use Lorem Ipsum as their default model text.
+                                    </div>
+
+                                    <div class="customer-review">
+                                        <div class="customer">
+                                            <a href="#">
+                                                <img class="img-fluid" src="./public/images/untitled-1.jpg"
+                                                    alt="customer">
+                                            </a>
+                                        </div>
+
+                                        <div class="review-content">
+                                            <div class="product-details-container">
+                                                <h2 class="product-name"> <a href="#"
+                                                        title="Jeniffer Schott">
+                                                        Ms. Danien</a> </h2>
+
+                                                <div class="product-reviews-bar">
+                                                    <div class="rating-summary">
+                                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                            class="fas fa-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="desc"><i class="fas fa-quote-right"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SERVICE AREA -->
+    <div class="service-area">
+        <div class="container">
+            <div class="row service-area-row">
+                <div class="service-item">
+                    <div class="service-item-img">
+                        <img src="./public/images/ico_sv_1.png" width="31" height="27" alt="logo">
+                    </div>
+                    <div class="service-item-content">
+                        <strong>Free Shipping</strong>
+                        <p>Free Shipping On All US</p>
+                    </div>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-item-img">
+                        <img src="./public/images/ico_sv_2.png" width="31" height="27" alt="logo">
+                    </div>
+                    <div class="service-item-content">
+                        <strong>Monney Returns</strong>
+                        <p>Return It Within 30 Days</p>
+                    </div>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-item-img">
+                        <img src="./public/images/ico_sv_3.png" width="31" height="27" alt="logo">
+                    </div>
+                    <div class="service-item-content">
+                        <strong>Security Payment</strong>
+                        <p>We Ensure Secure Payment</p>
+                    </div>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-item-img">
+                        <img src="./public/images/ico_sv_4.png" width="31" height="27" alt="logo">
+                    </div>
+                    <div class="service-item-content">
+                        <strong>Support 24/7</strong>
+                        <p>Contact Us 24 Hours A Day</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <!-- CONTACT AREA -->
+        <div class="contact-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="contact-wrapper">
+                            <div class="contact-icon">
+                                <img src="./public/images/phone.png" alt="#" width="70" height="70">
+                            </div>
+                            <div class="contact-info-content">
+                                <h3 class="title call-us">Call Us 24/7</h3>
+                                <h2 class="product-name phonenumber"> <a href="#">
+                                        (1800)-88-66-991</a> </h2>
+                                <h2 class="product-name contact-gmail"> <a href="#">
+                                        contact@example.com</a> </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="contact-wrapper">
+                            <div class="contact-icon">
+                                <img src="./public/images/mail.png" alt="#" width="70" height="70">
+                            </div>
+                            <div class="contact-info-content">
+                                <h3 class="title call-us">Subscribe Newsletter</h3>
+                                <p class="sub-content">
+                                    Get E-mail updates latest shop & special offers.
+                                </p>
+
+                                <form action="#" method="POST">
+                                    <div class="input-box">
+                                        <div class="input-control">
+                                            <input name="email" class="input-email" type="email" id="newsletter"
+                                                placeholder="Enter your email">
+                                        </div>
+                                        <div><button class="btn-subcribe">Subscribe</button></div>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-link">
+            <div class="container">
+                <div class="footer-link-container">
+                    <div class="footer-item">
+                        Copyright © 2021 by Ecotech Alothemes. All rights reserved
+                    </div>
+
+                    <div class="footer-item">
+                        7176 Blue Spring Lane Santa Monica,
+                        <br>
+                        CA 90403
+                    </div>
+
+                    <div class="footer-item">
+                        <a href="#">support@alothemes.com</a>
+                        <br>
+                        <a href="#">(+84) 865633728</a>
+                    </div>
+
+                    <div class="footer-item icon-social-footer">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCROLL TO TOP BUTTON -->
+    <a href="#" id="backtotop"><span><i class="fas fa-angle-up"></i></span></a>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+        crossorigin="anonymous"></script>
+
+    <!-- FLICKITY -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <!-- MY SCRIPTS FOR SLIDER-MENU, COUNTDOWN TIMER, FIXED NAVIGATION BAR AND SCROLL TOP TOP BUTTON -->
+    <script src="./public/js/scripts.js"></script>
+</body>
+
+</html>
